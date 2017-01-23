@@ -55,8 +55,5 @@ source $ZSH/oh-my-zsh.sh
 export WORKON_HOME=~/envs
 source /usr/local/bin/virtualenvwrapper.sh
 
-# don't get rate limited for homebrew checks to github
-export HOMEBREW_GITHUB_API_TOKEN="da253119a25310318371ae045b9e6c2d16b7e96c"
-
 # tmux
 export EDITOR='vim' # maybe slime some day?
